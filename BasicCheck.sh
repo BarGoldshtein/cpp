@@ -5,7 +5,7 @@ args=${@:3}
 cd "$dir" || exit
 if [ -f makefile ] || [ -f Makefile ] ;
 	then 
-		make MAIN="$dir/$program"
+		make MAIN="$dir/greeting1.cpp"
 		if [ $? -eq 0 ]
 			then
 echo "1111111111111111111111111111111111111111111111ahsdkhashdfklshdflksdhklgwgljeflkdgjeflkdgjlfdjglkfjhlkfjhlkefdjhlkefjhlkefdjhlkef"
