@@ -10,9 +10,9 @@ if [ -f makefile ] || [ -f Makefile ] ;
 			then
 echo "1111111111111111111111111111111111111111111111ahsdkhashdfklshdflksdhklgwgljeflkdgjeflkdgjlfdjglkfjhlkfjhlkefdjhlkefjhlkefdjhlkef"
 			chmod 755 $program
-			valgrind --leak-check=full --error-exitcode=1 ./a.out
+			valgrind --leak-check=full --error-exitcode=1 ./$program
 			result1=$?
-			valgrind --tool=helgrind --error-exitcode=1 ./a.out
+			valgrind --tool=helgrind --error-exitcode=1 ./$program
 			result2=$?
 ##			clear
 			if [ $result1 -eq 0 ]
