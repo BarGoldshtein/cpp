@@ -14,10 +14,12 @@ echo "1111111111111111111111111111111111111111111111ahsdkhashdfklshdflksdhklgwgl
 			result1=$?
 			valgrind --tool=helgrind --error-exitcode=1 ./a.out
 			result2=$?
-			clear
+##			clear
 			if [ $result1 -eq 0 ]
 				then
 				echo "222222222222222222222222222222222222222222222222222222222"
+echo $result1
+printf"testtttttttttttttttttttttttttttttttt";
 				##result1 = 0
 				resultString1="PASS";
 			else
