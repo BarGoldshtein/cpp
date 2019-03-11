@@ -1,2 +1,1 @@
 greeter.o: units/greeter.cpp units/greeter.hpp
-test.o: /root/Desktop/ex1//test.cpp
